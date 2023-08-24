@@ -7,7 +7,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
   Component,
   pageProps: { session, ...pageProps },
 }) => {
-  console.log('PR1')
+  console.log('pr3')
   return (
     <SessionProvider session={session}>
       <Component {...pageProps} />
